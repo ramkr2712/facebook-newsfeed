@@ -1,0 +1,32 @@
+.app {
+ background-color:#97b4c1; 
+}
+
+.header {
+  background-color: ivory;
+  padding: 20px;
+  font-size: 80px;
+  text-align: left;
+  color:#1877f2;
+}
+
+.footer {
+  background-color: ivory;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-content {
+  background-color: #fff;
+  font-family: helvetica;
+  margin: 30px auto;
+  width: 600px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+}

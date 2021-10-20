@@ -1,0 +1,78 @@
+.single-comment {
+    padding: 0 0 0 12px;
+    
+    &:first-of-type {
+      border-top: 1px solid #e1e2e3;
+      padding-top: 12px;
+  
+      img {
+        background-image: url('../../../assets/images/facebook_no_profile_pic.gif');
+      }
+    }
+    
+    &:nth-of-type(2) {
+      img {
+        background-image: url('../../../assets/images/facebook_no_profile_pic.gif');
+      }
+    }
+    
+    
+    margin: 0;
+    img {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-image: url('../../../assets/images/facebook_no_profile_pic.gif');
+      background-size: cover;
+      background-position: center;
+      border: none;
+    }
+    
+    .single-container {
+      padding-left: 40px;
+      padding-right: 20px;
+      
+      span {
+        font-size: 12px;
+        margin-left: 5px;
+        
+        &:first-of-type {
+          cursor: pointer;
+          font-weight: bold;
+          color: #365899;
+          font-size: 12px;
+          margin: 0;
+  
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    
+    .buttons {
+      margin-top: 0;
+      padding-left: 40px;
+      p {
+        display: inline-block;
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 12px;
+        margin-right: 8px;
+        margin-top: 5px;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+        
+        &:last-of-type {
+          color: #90949c;
+          cursor: auto;
+          text-decoration: none;
+        }
+       
+      }
+      
+    }
+  }
